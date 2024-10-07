@@ -13,8 +13,8 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["972546887176", '👑 Flash - Zack 👑', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
-["201224563219", '💫 Flash - Naruto 💫', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
+["967775302218", 'ابوهايف:♡', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
+["966581999573", 'الرقم الاحتياطي', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
 ]
 
 
@@ -117,9 +117,9 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["972546887176", '👑 Flash - Zack 👑', 1], 
-["20124563219", '💫 Flash - Naruto 💫', 1],  
-["972546887176", '👑 Flash - Zack 👑', 1]]
+["967775302218", 'PATCHERA', 1], 
+["966581999573", 'PATCHERA2', 1],  
+["967775302218", 'PATCHERA', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -164,9 +164,9 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝐅𝐋𝐀𝐒𝐇﹝⚡️﹞𝐁𝐎𝐓"
-global.igfg = "Naruto & Zack"
-global.nomorown = "972546887176"
+global.wm = "𝑃𝐴𝑇𝐶𝐻𝐸𝑅𝐴[🍷]𝐵𝛩𝑇"
+global.igfg = "ابوهايف:♡"
+global.nomorown = "967775302218"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -208,7 +208,7 @@ message: {
 'seconds': '999999999', 
 'gifPlayback': 'true', 
 'caption': bottime,
-'jpegThumbnail': fs.readFileSync('./media/menus/Menu3.jpg')
+'jpegThumbnail': fs.readFileSync('./media/menus/Menu2.jpg')
 }}}
 
 
@@ -430,7 +430,7 @@ import(`${file}?update=${Date.now()}`);
 })
 
 async function fetchDataAndProcess() {
-const response = await fetch('https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/official_accounts.json')
+const response = await fetch('https://whatsapp.com/channel/0029VafG0N8I1rclRCFLaL0g')
 const data = await response.json() 
 let { accounts, channels, groups, collaboration, sponsors, others } = data.info
 
